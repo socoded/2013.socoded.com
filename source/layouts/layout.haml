@@ -1,0 +1,25 @@
+!!! 5
+!= cc_html(lang: 'en') do
+  %head
+    %meta{:charset => 'utf-8'}
+    %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
+    %title So Coded
+    = javascript_include_tag 'modernizr'
+    = stylesheet_link_tag 'application'
+
+  %body
+
+    %header.mod-header
+      %nav
+        %ul
+          %li= link_to 'Start', '/'
+          %li= link_to 'Speakers', '/speakers.html'
+          %li= link_to 'Info', '#'
+          %li= link_to 'Sponsor', '#'
+
+    = yield
+
+    %footer.mod-footer
+      %ul
+        %li= link_to 'GitHub', '#', :class => 'github'
+        %li= link_to 'Engine Yard', '#', :class => 'engineyard'

@@ -1,0 +1,72 @@
+.mod-header
+  height: 100px
+  padding-top: 18px
+  text-align: center
+  +background(linear-gradient(top, #000, #000 35%, transparent))
+
+  nav
+    font-family: $font-alt
+    color: $font-yellow
+
+  ul
+    position: relative
+    font-size: 0
+
+    &:after
+      content: inline-image("visual.png")
+      top: 32px
+      left: 50%
+      position: absolute
+      margin-left: -27px
+
+  li
+    width: 85px
+    display: inline-block
+    font-size: 20px
+    border-bottom: 1px solid $yellow-02
+
+    a
+      height: 40px
+      display: block
+      line-height: 40px
+
+      &.active
+        color: #fff
+
+      &:hover,
+      &:focus
+        color: #fff
+        text-decoration: underline
+
+    &:nth-child(2)
+      width: 105px
+      margin-right: 17px
+      padding-right: 20px
+
+    &:nth-child(3)
+      width: 105px
+      margin-left: 17px
+      padding-left: 20px
+
+  +max-width(500px)
+    ul
+      margin: 0
+
+      &:after
+        top: 83px
+        margin-left: -31px
+    li
+      &:first-child,
+      &:nth-child(2),
+      &:nth-child(3),
+      &:last-child
+        width: 41%
+        float: left
+        margin: 0 4%
+        padding: 0 20px
+        border: none
+
+      &:nth-child(3),
+      &:last-child
+        padding-bottom: 10px
+        border-bottom: 1px solid $yellow-02

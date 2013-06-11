@@ -1,0 +1,47 @@
+.mod-footer
+  width: 100%
+  min-width: 320px
+  bottom: 0
+  right: 0
+  position: absolute
+  padding: 0 30px 25px
+  z-index: 2
+
+  ul
+    float: right
+
+  li
+    margin-left: 25px
+    display: inline-block
+    vertical-align: bottom
+
+  a
+    display: block
+    +hide-text
+
+    &.github
+      width: 107px
+      height: 29px
+      +data-uri-bg("github.png")
+
+    &.engineyard
+      width: 44px
+      height: 73px
+      +data-uri-bg("engineyard.png")
+
+  +max-width(600px)
+    position: static
+    display: inline-block
+    margin-top: 50px
+    padding: 0
+    text-align: center
+
+    ul
+      display: inline-block
+      float: none
+
+    li
+      margin: 0 10px
+
+  +max-width(450px)
+    margin-top: 30px
