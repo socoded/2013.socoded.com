@@ -3,8 +3,8 @@
   min-width: 320px
   bottom: 0
   right: 0
-  position: fixed
-  padding: 0 30px 10px
+  position: static
+  padding: 100px 30px 10px
   z-index: 2
 
   ul
@@ -17,9 +17,15 @@
 
   a
     display: block
-    +hide-text
+
+    font-family: $font
+    font-size: 16px
+
+    &.text
+      padding-bottom: 17px
 
     &.twitter
+      +hide-text
       width: 70px
       height: 70px
       +data-uri-bg("twitter-bird-dark-bgs.png")
