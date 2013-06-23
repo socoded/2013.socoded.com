@@ -31,6 +31,7 @@ Then open the page locally at: [http://localhost:4567](http://localhost:4567)
 * http://www.flickr.com/photos/schoschie/1258649728
 * http://www.flickr.com/photos/eriwst/4236140391/
 * http://www.flickr.com/photos/wimox/5393296462
+* http://www.flickr.com/photos/eriwst/2303608353
 
 ## Images to keep in mind
 
