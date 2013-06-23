@@ -35,21 +35,31 @@
         right: 12px
         position: relative
 
+        +max-width(400px)
+          content: none
+
       &:after
         content: inline-image("visual_right.png")
         top: -1px
         left: 12px
         position: relative
 
+        +max-width(400px)
+          content: none
+
   p
     font-size: 18px
     line-height: 2
+
+    +max-width(400px)
+      span.visual
+        display: none
 
     a
       display: block
       margin-top: 13px
 
-  +max-width(500px)
+  +max-width(#{$nav-gap * 200}px)
     margin-top: 80px
     background-size: 30% auto
     padding-bottom: 30%
@@ -59,7 +69,8 @@
       height: auto
 
     span
-      font-size: 40px
+      &.head,&.subhead
+        font-size: 40px
 
   +max-width(400px)
     p

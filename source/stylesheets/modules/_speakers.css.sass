@@ -17,11 +17,15 @@
     position: relative
     margin-bottom: 50px
 
-    > p
+    > p, > address, > ul
       width: 60%
       float: right
-      font-size: 14px
+      font-size: 16px
       line-height: 1.2857
+      margin-bottom: 0.4em
+
+      a
+        text-decoration: underline
 
   h2
     width: 60%
@@ -34,12 +38,25 @@
     width: 60%
     float: right
     margin: 36px 0 24px 0
-    font-size: 18px
+    font-size: 20px
     line-height: 1
 
   figure
     width: 40%
     float: left
+    margin-top: 16px
+
+    &.hightop
+      margin-top: -70px
+
+    +max-width(600px)
+      margin-top: 0
+      margin-bottom: 10px
+      width: 100%
+      text-align: center
+
+      &.hightop
+        margin-top: 0
 
   img
     width: 80%
@@ -72,6 +89,50 @@
     h2
       margin-bottom: 40px
 
-  +max-width(500px)
-    margin: 50px 20px 0
+  +max-width(#{$nav-gap * 200}px)
+    margin: #{$nav-gap * 20 + 10}px 20px 0
     padding: 20px
+
+  &.info
+    h3
+      margin-top: 10px
+
+    img
+      width: 100%
+      max-width: 220px
+
+  &.sponsors
+    padding-left: 90px
+    padding-right: 90px
+
+    article
+      &.no-bottom
+        margin-bottom: 0
+      &.high-top
+        padding-top: 40px
+
+    +max-width(600px)
+      padding-left: 20px
+      padding-right: 20px
+
+    h2, h3, p
+      float: none
+      text-align: center
+      width: inherit
+      margin-bottom: 20px
+
+    figure
+      width: 100%
+      text-align: center
+
+      &:nth-child(1)
+        margin-right: 0
+
+      img
+        max-width: 220px
+        width: 220px
+
+      figcaption
+        font-size: 20px
+        font-weight: bold
+

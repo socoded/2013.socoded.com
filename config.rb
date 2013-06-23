@@ -60,6 +60,13 @@ helpers do
 
   def h(str); Rack::Utils.escape_html(str); end
 
+  def ticket_link(str)
+    link_to(str, 'https://tito.io/so-coded/so-coded')
+  end
+
+  def sponsor(label, image, url)
+    "<article><figure>#{link_to(image_tag('sponsors/' + image), url)}<figcaption>#{link_to(label, url)}</figcaption></figure></article>"
+  end
 end
 
 # require 'source/helpers/helpers.rb'

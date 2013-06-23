@@ -25,6 +25,17 @@ Then open the page locally at: [http://localhost:4567](http://localhost:4567)
 
 ## Image Credits
 
+* http://www.flickr.com/photos/swissgringo/6467914235/
+* http://www.flickr.com/photos/scottcalleja/4882629309
+* http://www.flickr.com/photos/hagbard/5528997127
+* http://www.flickr.com/photos/schoschie/1258649728
+* http://www.flickr.com/photos/eriwst/4236140391/
+* http://www.flickr.com/photos/wimox/5393296462
+
+## Images to keep in mind
+
+(not used yet)
+
 * http://www.flickr.com/photos/34053291@N05/3615948056/sizes/o/in/photostream/
 * http://www.flickr.com/photos/julianturner/2153869108/sizes/o/in/photostream/
 * http://www.flickr.com/photos/axelsrose/6297153687/

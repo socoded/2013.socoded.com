@@ -4,8 +4,10 @@
     %meta{:charset => 'utf-8'}
     %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
     %title So Coded
+    %link{:rel => "shortcut icon", :href => "/favicon.ico"}
     = stylesheet_link_tag 'application'
     = javascript_include_tag 'modernizr'
+    = javascript_include_tag 'turbolinks'
 
   %body
 
@@ -14,12 +16,13 @@
         %ul
           %li= link_to 'Start', 'index.html', :relative => true
           %li= link_to 'Speakers', 'speakers.html', :relative => true
-          %li= link_to 'Info', '#'
-          %li= link_to 'Sponsor', '#'
+          %li= ticket_link 'Tickets'
+          %li= link_to 'Info', 'info.html', :relative => true
+          %li= link_to 'Travel', 'travel.html', :relative => true
+          %li= link_to 'Sponsors', 'sponsor.html', :relative => true
 
     = yield
 
     %footer.mod-footer
       %ul
-        %li= link_to 'GitHub', '#', :class => 'github'
-        %li= link_to 'Engine Yard', '#', :class => 'engineyard'
+        %li= link_to 'Follow @socodedconf on Twitter', 'https://twitter.com/intent/follow?region=follow_link&screen_name=socodedconf', :class => 'twitter', :title => "Follow @socodedconf on Twitter"
