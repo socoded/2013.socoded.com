@@ -61,7 +61,7 @@ helpers do
   def h(str); Rack::Utils.escape_html(str); end
 
   def ticket_link(str)
-    link_to(str, 'https://tito.io/so-coded/so-coded')
+    link_to(str, 'https://tito.io/so-coded/so-coded', {onClick: "_gaq.push(['_trackEvent', 'Ticket Link', 'Click']);"})
   end
 
   def sponsor(label, image, url)
