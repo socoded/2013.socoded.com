@@ -11,7 +11,7 @@ $ bundle install
 ## Deploy
 
 ```sh
-$ bundle exec rake deploy
+$ bundle exec rake publish
 ```
 
 ## Development mode
