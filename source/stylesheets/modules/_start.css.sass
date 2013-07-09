@@ -1,9 +1,7 @@
 .mod-start
   margin: 40px 30px 0
-  padding-bottom: 140px
   color: #000
   text-align: center
-  +data-uri-bg("guns.png", bottom center no-repeat)
 
   h1
     display: block
@@ -25,27 +23,46 @@
     &.subhead
       display: block
       font-family: $font-alt
-      font-size: 50px
       text-align: center
       vertical-align: bottom
+      font-size: 40px
+      position: relative
 
-      &:before
-        content: inline-image("visual_left.png")
-        top: -1px
-        right: 12px
+      .city
+        display: block
+        margin-top: 20px
+      .date
+        display: block
+        margin-top: 10px
+        margin-bottom: 10px
+
+      .mission
+        max-width: 500px
+        display: inline-block
+        margin: 0 auto
         position: relative
 
-        +max-width(400px)
-          content: none
+        span
+          display: block
 
-      &:after
-        content: inline-image("visual_right.png")
-        top: -1px
-        left: 12px
-        position: relative
+          &.visual
+            width: 33px
+            height: 18px
+            position: absolute
+            top: 50%
+            margin-top: -9px
 
-        +max-width(400px)
-          content: none
+            &.left
+              content: inline-image("visual_left.png")
+              left: -40px
+
+            &.right
+              content: inline-image("visual_right.png")
+              right: -40px
+
+            +max-width(560px)
+              display: none
+
 
   p
     font-size: 18px
