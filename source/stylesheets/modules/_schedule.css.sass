@@ -1,0 +1,30 @@
+.mod-schedule
+  .day
+    width: 280px
+    float: left
+
+    margin-right: 10px
+
+    &:nth-child(even)
+      margin-right: 0
+
+    table
+      width: 100%
+      border: 1px solid
+
+      tr
+        font-size: 140%
+
+        &.even td
+          background: rgba(100,100,100, 0.4)
+
+        td
+          text-align: center
+          padding-top: 10px
+          padding-bottom: 10px
+
+          &:nth-child(1)
+            width: 100px
+
+      thead
+        font-size: 150%
