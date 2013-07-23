@@ -65,7 +65,8 @@ helpers do
   end
 
   def sponsor(label, image, url)
-    "<article><figure>#{link_to(image_tag('sponsors/' + image), url)}<figcaption>#{link_to(label, url)}</figcaption></figure></article>"
+    id = label.downcase.gsub(/\s/, '-')
+    "<article id=\"#{id}\"><figure>#{link_to(image_tag('sponsors/' + image), url)}<figcaption>#{link_to(label, url)}</figcaption></figure></article>"
   end
 end
 
