@@ -33,6 +33,7 @@ Then open the page locally at: [http://localhost:4567](http://localhost:4567)
 * http://www.flickr.com/photos/wimox/5393296462
 * http://www.flickr.com/photos/eriwst/2303608353
 * http://www.flickr.com/photos/razee/234938599
+* http://www.flickr.com/photos/peterhellberg/4633283750
 
 ## Images to keep in mind
 
