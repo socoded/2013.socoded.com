@@ -14,7 +14,11 @@
     %header.mod-header
       %nav
         %ul
-          %li= link_to 'Start', 'index.html', :relative => true
+          %li
+            .senor-developer-sale-countdown
+              %a(href="https://tito.io/so-coded/so-coded")
+                = image_tag 'senor-developer-sale.png'
+            =link_to 'Start', 'index.html', :relative => true
           %li= link_to 'Speakers', 'speakers.html', :relative => true
           %li= ticket_link 'Tickets'
           %li= link_to 'Info', 'info.html', :relative => true
