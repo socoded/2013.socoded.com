@@ -3,52 +3,69 @@
     %h2 Speaker Infos
 
     %p
-      We also provided lots of information before via mail. But we know. Just in case there are any open questions we're trying to collect all information you need on this webpage. If you have an question which is not answered here please do not hesitate to drop us a mail ole@socoded.com or thorben@socoded.com
+      Please contact Ole
+      for anything related to your presentation or talk.
+    %p
+      If you have not yet fill out this form before anything else:
+      = link_to 'this form', 'https://docs.google.com/forms/d/1b2VubtYOMgyD0k57VVh-NkRI88VbNuh4Vv70lfHgR0M/viewform'
+      We absolutely need to know your setup before the conference!
+
+    %h2 General Info
+
+    %p All sessions are 30 minutes long
 
     %p
-      First things first, we already mentioned it in our very first mail. But better hear it twice. The most important information at a glance:
+      No Q/A after the talks
+      %br
+      (a.k.a: please hang out with the attendees at our awesome bar and hack with them on any questions that might come up)
 
-    %ul
-      %li All sessions are 30 minutes long
-      %li There will be no Q/A (a.k.a: please hang out with the attendees at our awesome bar and hack with them on any questions that might come up)
-      %li You must use our presenters computer
-      %li There will be a presenter remote
-      %li Your slides must be 1440x1080px
+    %p You must use our presenters computer
 
-    %h3 What else?
+    %p There will be a presenter remote
+
+    %p
+      Your slides must be 1440x1080px
+
+    %p
+      Audio output will be available
+
+    %p
+      Here are some templates pre-configured with the correct resolution. Please note that neither Power Point nor Open Office allow for pixel based sizes. The templates are generic 4:3 templates instead.
+
+      %ul
+        %li
+          = link_to 'Keynote \'09', 'slidedeck-templates/socoded-template.key'
+        %li
+          = link_to 'Power Point', 'slidedeck-templates/socoded-template.pptx'
+        %li
+          = link_to 'Open Office', 'slidedeck-templates/socoded-template.odp'
+
+    %h2 The Stage
+
+    %p
+      We are using a full HD presenter on a 3x2m canvas. Here are some rough renders of how folks in the front, middle and back of the room will experience the setup.
+      %ul
+        %li
+          %a{:href => '/images/info/first_row.png'}
+            = image_tag 'info/first_row_thumb.png'
+        %li
+          %a{:href => '/images/info/middle_row.png'}
+            = image_tag 'info/middle_row_thumb.png'
+        %li
+          %a{:href => '/images/info/last_row.png'}
+            = image_tag 'info/last_row_thumb.png'
+
+    %h2 What else?
 
     %p
       All our talks will be recorded and will be released for free right after the event. Plus we're partnering with some local video geeks so that we can stream your talk to the bar and have almost zero post-production.
 
-    %p
-      I assume your all set with your slide at this moment. In case your not because your struggeling with any of this constraints please contact us.
-      We can provide you some template pre-configured with the correct resolution:
-      %ul
-        %li
-          = link_to 'keynote', 'slidedeck-templates/socoded-template.key'
-        %li
-          = link_to 'power point', 'slidedeck-templates/socoded-template.pptx'
-        %li
-          = link_to 'open office', 'slidedeck-templates/socoded-template.odp'
-
-    %p
-      And please fill out
-      = link_to 'this form', 'https://docs.google.com/forms/d/1b2VubtYOMgyD0k57VVh-NkRI88VbNuh4Vv70lfHgR0M/viewform'
-
-    %h3 The Stage
-
-    %p
-      To give you a better idea of what our venue will look like, we put in all efforts and created this awesome rendered venue shots.
-      = image_tag 'info/first_row.png'
-      = image_tag 'info/middle_row.png'
-      = image_tag 'info/last_row.png'
-
-
     %h3 Have a question or need help?
 
     %p
-      Again Thorben and Ole are there for you! We're here for every possible question that may pop up. Wether your searching for the best public transport connection or need a recommendation for a good restaurant. Or you are stuck with any non-english speaking locals, drop us a call
-      %b WE ARE HERE TO HELP
+      Again: Ole is there for you! We are here for every possible question that may pop up. Wether you are searching for the best public transport connection or need a recommendation for a good restaurant. Or you are stuck with any non-english speaking locals, drop me a call
+      %b I AM HERE TO HELP
       %ul
-        %li Ole: +4917641320791
-        %li Thorben: +4917623550687
+        %li
+          Ole:
+          = link_to "+49-176-41320791", "tel:+4917641320791"
