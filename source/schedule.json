@@ -1,46 +1,61 @@
 {
-	"1379587500": {
-		"speaker": "Jessica Allen",
-		"info": ""
-	},
-	"1379591100": {
-		"speaker": "Igor Terzic",
-		"info": ""
-	},
-	"1379595600": {
-		"speaker": "Nic Williams",
-		"info": ""
-	},
-	"1379601900": {
-		"speaker": "Hans Christian Reinl",
-		"info": ""
-	},
-	"1379611800": {
-		"speaker": "Jason Costello",
-		"info": ""
-	},
-	"1379675700": {
-		"speaker": "Andy Delcambre",
-		"info": ""
-	},
-	"1379680200": {
-		"speaker": "Astrid Bin",
-		"info": ""
-	},
-	"1379684700": {
-		"speaker": "Robin Boehm",
-		"info": ""
-	},
-	"1379691000": {
-		"speaker": "Michael Godfrey",
-		"info": ""
-	},
-	"1379695500": {
-		"speaker": "Konstantin Haase",
-		"info": ""
-	},
-	"1379700000": {
-		"speaker": "Paul Campbell",
-		"info": ""
-	}
+  "offset": 0,
+  "slots": [
+    {
+      "time": 1379587500,
+      "speaker": "Jessica Allen",
+      "info": ""
+    },
+    {
+      "time": 1379591100,
+      "speaker": "Igor Terzic",
+      "info": ""
+
+    },
+    {
+      "time": 1379595600,
+      "speaker": "Nic Williams",
+      "info": ""
+    },
+    {
+      "time": 1379601900,
+      "speaker": "Hans Christian Reinl",
+      "info": ""
+    },
+    {
+      "time": 1379611800,
+      "speaker": "Jason Costello",
+      "info": ""
+    },
+    {
+      "time": 1379675700,
+      "speaker": "Andy Delcambre",
+      "info": ""
+    },
+    {
+      "time": 1379680200,
+      "speaker": "Astrid Bin",
+      "info": ""
+    },
+    {
+      "time": 1379684700,
+      "speaker": "Robin Boehm",
+      "info": ""
+    },
+    {
+      "time": 1379691000,
+      "speaker": "Michael Godfrey",
+      "info": ""
+    },
+    {
+      "time": 1379695500,
+      "speaker": "Konstantin Haase",
+      "info": ""
+    },
+    {
+      "time": 1379700000,
+      "speaker": "Paul Campbell",
+      "info": ""
+    }
+  ]
 }
