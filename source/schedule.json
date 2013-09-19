@@ -1,5 +1,6 @@
 {
-  "sessions": [
+  "offset": 0,
+  "slots": [
     {
       "time": 1379574900,
       "speaker": "Breakfast",
